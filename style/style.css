@@ -1,0 +1,154 @@
+body {
+    background-image: url('background-home-desktop.jpg');
+    background: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Quicksand;
+}
+
+.navs {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.bodyc {
+    background-image: url('assets/destination/background-destination-desktop.jpg');
+}
+
+.line {
+    height: 2px;
+    background-color: white;
+    opacity: 0.2;
+    margin-top: 20px;
+}
+
+.links {
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    text-align: center;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    min-width: 500px;
+}
+
+.links a {
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+    color: white;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.links a:hover {
+    opacity: 1;
+}
+
+.section1 {
+    margin-top: 200px;
+    transition: all;
+}
+
+.about {
+    color: white;
+    font-family: Quicksand;
+    margin-left: 50px;
+}
+
+.about h4 {
+    max-width: 300px;
+}
+
+.about h1 {
+    font-size: 100px;
+}
+
+.about p {
+    max-width: 300px;
+}
+
+.explore {
+    width: 200px;
+    height: 200px;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+
+.explore h4 {
+    display: flex;
+    margin: auto;
+    margin-top: 80px;
+    justify-content: center;
+    opacity: 0.7;
+}
+
+.destination {
+    margin-top: 100px;
+    transition: 0.5s;
+}
+
+.pick {
+    font-size: 25px;
+    margin-bottom: 100px;
+    opacity: 0.7;
+}
+
+.img {
+    animation: planet 2s infinite ease-in-out;
+}
+
+.start {
+    margin-right: 150px;
+}
+
+.links2 {
+    margin-bottom: 50px;
+}
+
+.links2 a {
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.links2 a:hover {
+    opacity: 1;
+}
+
+.links2 .acitvelinks {
+    opacity: 1;
+}
+
+#links .acitvelinks {
+    opacity: 1;
+}
+
+.techs {
+    margin-top: 100px;
+}
+
+.but button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    background-color: none;
+    margin-left: 50px;
+    background: none;
+    color: white;
+    border: rgb(118, 115, 115) 1px solid;
+}
+
+.but {
+    position: absolute;
+}
+
+.but .acitvebut,
+.but button:hover {
+    background-color: white;
+    color: rgb(118, 115, 115);
+}
